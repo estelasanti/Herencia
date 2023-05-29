@@ -1,6 +1,8 @@
 public class SchoolApp{
     public static void main(String[] args) {
         Student student1=new Student("Juan","Perez","juanperez@gmail.com","Iguala,Gro");
+
+
         student1.setControlNumber(123456789);
         student1.setCareer("Informatica");
         student1.setGeneralAverage(86.6);
